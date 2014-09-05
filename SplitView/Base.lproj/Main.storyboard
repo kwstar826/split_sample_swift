@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Secondary-->
         <scene sceneID="eiK-QH-lnD">
             <objects>
                 <viewController id="ddS-Uv-zjf" sceneMemberID="viewController">
@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KXv-JP-Utp"/>
+                    <navigationItem key="navigationItem" title="Secondary" id="KXv-JP-Utp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPs-3S-9hM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1707" y="553"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Primary-->
         <scene sceneID="vwS-VA-lf8">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="ZEF-T7-62m" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                             <outlet property="delegate" destination="ZEF-T7-62m" id="75j-W1-9Zi"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="oDB-3c-Nxd"/>
+                    <navigationItem key="navigationItem" title="Primary" id="oDB-3c-Nxd"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9QO-Jw-dFK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
