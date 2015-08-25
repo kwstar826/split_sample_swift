@@ -12,16 +12,6 @@ class SplitViewController: UISplitViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        if viewControllers.count > 1 {
-            if let nav = viewControllers[1] as? UINavigationController {
-                if let items = nav.navigationBar.items,
-                let navigationItem = items.first {
-                    navigationItem.rightBarButtonItem = displayModeButtonItem()
-                }
-            }
-        }
-
     }
 
 }

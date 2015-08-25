@@ -14,18 +14,26 @@ class PrimaryTableViewController: UITableViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let identifier = segue.identifier {
+            var color = UIColor.whiteColor()
+
             switch identifier {
             case "ShowDetailBlue":
-                segue.destinationViewController.view.backgroundColor = UIColor.blueColor()
+                color = UIColor.blueColor()
             case "ShowDetailPurple":
-                segue.destinationViewController.view.backgroundColor = UIColor.purpleColor()
+                color = UIColor.purpleColor()
             case "ShowDetailOrange":
-                segue.destinationViewController.view.backgroundColor = UIColor.orangeColor()
+                color = UIColor.orangeColor()
             default:
                 debugPrint("Unhandled segue identifier \(identifier)")
             }
+
+            if let nav = segue.destinationViewController as? UINavigationController,
+            let vc = nav.viewControllers.first {
+                vc.view.backgroundColor = color
+            }
         }
 
+        // Add the "expand" button to the navbar
         segue.destinationViewController.navigationItem.rightBarButtonItem = splitViewController?.displayModeButtonItem()
     }
 
