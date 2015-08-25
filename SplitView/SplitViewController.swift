@@ -13,13 +13,19 @@ class SplitViewController: UISplitViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationItem.rightBarButtonItem = displayModeButtonItem()
+        if let nav = viewControllers.first as? UINavigationController {
+            if let items = nav.navigationBar.items,
+            let navigationItem = items.first {
+                navigationItem.rightBarButtonItem = displayModeButtonItem()
+            }
+        }
+
     }
 
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-
-        navigationItem.rightBarButtonItem = displayModeButtonItem()
-    }
+//    override func viewWillAppear(animated: Bool) {
+//        super.viewWillAppear(animated)
+//
+//        navigationItem.rightBarButtonItem = displayModeButtonItem()
+//    }
 
 }

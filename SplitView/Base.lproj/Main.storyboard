@@ -8,7 +8,7 @@
         <!--Secondary-->
         <scene sceneID="eiK-QH-lnD">
             <objects>
-                <viewController id="ddS-Uv-zjf" customClass="DetailNavigationController" customModule="SplitView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ddS-Uv-zjf" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oXD-TK-tnN"/>
                         <viewControllerLayoutGuide type="bottom" id="uvR-rg-bxG"/>
@@ -140,7 +140,7 @@
         <!--Split View Controller-->
         <scene sceneID="gye-b3-Ete">
             <objects>
-                <splitViewController id="zmq-na-37f" sceneMemberID="viewController">
+                <splitViewController id="zmq-na-37f" customClass="SplitViewController" customModule="SplitView" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="ELB-ii-u6e" kind="relationship" relationship="masterViewController" id="lPo-3i-AaF"/>
                         <segue destination="KbX-hU-6CY" kind="relationship" relationship="detailViewController" id="aYh-wa-Vgr"/>
@@ -150,10 +150,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="222"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Detail Navigation Controller-->
         <scene sceneID="QHe-r4-0eh">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KbX-hU-6CY" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KbX-hU-6CY" customClass="DetailNavigationController" customModule="SplitView" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="w0z-Cb-swL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -171,6 +171,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7vp-qU-ZEG"/>
+        <segue reference="b7E-OM-idp"/>
     </inferredMetricsTieBreakers>
 </document>
