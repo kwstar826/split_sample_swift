@@ -156,6 +156,7 @@
 		F8E8CD8019B9438C0030BC67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = phatblat;
 				TargetAttributes = {
@@ -401,6 +402,7 @@
 				F8E8CDA619B9438C0030BC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8E8CDA719B9438C0030BC67 /* Build configuration list for PBXNativeTarget "SplitViewTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +411,7 @@
 				F8E8CDA919B9438C0030BC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
