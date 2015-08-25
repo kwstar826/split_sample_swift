@@ -23,7 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPs-3S-9hM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1715" y="779"/>
+            <point key="canvasLocation" x="1715" y="635"/>
         </scene>
         <!--Primary-->
         <scene sceneID="vwS-VA-lf8">
@@ -57,7 +57,7 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <segue destination="ddS-Uv-zjf" kind="showDetail" identifier="ShowDetailBlue" id="uKq-95-rd1"/>
+                                            <segue destination="KbX-hU-6CY" kind="showDetail" identifier="ShowDetailBlue" id="3l0-uw-mep"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Rd8-CK-RDC" style="IBUITableViewCellStyleDefault" id="kNK-wx-Ktb">
@@ -80,7 +80,7 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <segue destination="ddS-Uv-zjf" kind="showDetail" identifier="ShowDetailPurple" id="Gbb-cV-eUM"/>
+                                            <segue destination="KbX-hU-6CY" kind="showDetail" identifier="ShowDetailPurple" id="enl-vy-czs"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="d82-yM-K3V" style="IBUITableViewCellStyleDefault" id="PQN-FX-SGm">
@@ -103,7 +103,7 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <segue destination="ddS-Uv-zjf" kind="showDetail" identifier="ShowDetailOrange" id="7vp-qU-ZEG"/>
+                                            <segue destination="KbX-hU-6CY" kind="showDetail" identifier="ShowDetailOrange" id="ZEH-Vc-Bqo"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="1715" y="-109"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Primary Navigation Controller-->
         <scene sceneID="NEU-Iz-vkb">
             <objects>
-                <navigationController id="ELB-ii-u6e" sceneMemberID="viewController">
+                <navigationController id="ELB-ii-u6e" customClass="PrimaryNavigationController" customModule="SplitView" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bFB-YI-sNd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -167,10 +167,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cp4-MV-4Hi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="895" y="553"/>
+            <point key="canvasLocation" x="895" y="635"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="b7E-OM-idp"/>
+        <segue reference="ZEH-Vc-Bqo"/>
     </inferredMetricsTieBreakers>
 </document>

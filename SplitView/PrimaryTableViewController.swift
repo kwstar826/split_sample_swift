@@ -25,6 +25,8 @@ class PrimaryTableViewController: UITableViewController {
                 debugPrint("Unhandled segue identifier \(identifier)")
             }
         }
+
+        segue.destinationViewController.navigationItem.rightBarButtonItem = splitViewController?.displayModeButtonItem()
     }
 
 }
