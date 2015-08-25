@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F883931A1B8D13A900C810CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88393191B8D13A900C810CF /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		F8E8CD8E19B9438C0030BC67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8CD8D19B9438C0030BC67 /* AppDelegate.swift */; };
 		F8E8CD9319B9438C0030BC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E8CD9119B9438C0030BC67 /* Main.storyboard */; };
 		F8E8CD9519B9438C0030BC67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E8CD9419B9438C0030BC67 /* Images.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F88393191B8D13A900C810CF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8E8CD8819B9438C0030BC67 /* SplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E8CD8C19B9438C0030BC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8E8CD8D19B9438C0030BC67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,9 +81,10 @@
 			children = (
 				F8E8CD8D19B9438C0030BC67 /* AppDelegate.swift */,
 				F8E8CDAA19B96D370030BC67 /* DetailNavigationController.swift */,
-				F8E8CDAC19B96EF10030BC67 /* SplitViewController.swift */,
 				F8E8CD9419B9438C0030BC67 /* Images.xcassets */,
+				F88393191B8D13A900C810CF /* LaunchScreen.storyboard */,
 				F8E8CD9119B9438C0030BC67 /* Main.storyboard */,
+				F8E8CDAC19B96EF10030BC67 /* SplitViewController.swift */,
 				F8E8CD8B19B9438C0030BC67 /* Supporting Files */,
 			);
 			path = SplitView;
@@ -193,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F883931A1B8D13A900C810CF /* LaunchScreen.storyboard in Resources */,
 				F8E8CD9319B9438C0030BC67 /* Main.storyboard in Resources */,
 				F8E8CD9519B9438C0030BC67 /* Images.xcassets in Resources */,
 			);
@@ -331,7 +335,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SplitView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -342,7 +345,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SplitView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
