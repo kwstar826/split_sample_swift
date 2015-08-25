@@ -8,7 +8,7 @@
         <!--Secondary-->
         <scene sceneID="eiK-QH-lnD">
             <objects>
-                <viewController id="ddS-Uv-zjf" sceneMemberID="viewController">
+                <viewController id="ddS-Uv-zjf" customClass="DetailViewController" customModule="SplitView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oXD-TK-tnN"/>
                         <viewControllerLayoutGuide type="bottom" id="uvR-rg-bxG"/>
