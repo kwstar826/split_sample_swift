@@ -12,6 +12,17 @@ class SplitViewController: UISplitViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        delegate = self
+    }
+
+}
+
+// MARK: - SplitViewControllerDelegate
+
+extension SplitViewController: UISplitViewControllerDelegate {
+
+    func splitViewControllerSupportedInterfaceOrientations(splitViewController: UISplitViewController) -> UIInterfaceOrientationMask {
+        return .All
     }
 
 }
