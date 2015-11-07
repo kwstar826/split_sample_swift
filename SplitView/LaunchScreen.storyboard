@@ -47,7 +47,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="JbR-nB-SXK">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="JbR-nB-SXK">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JbR-nB-SXK" id="2Yb-GP-8Ma">
@@ -89,7 +89,7 @@
         <!--Split View Controller-->
         <scene sceneID="58N-zn-poU">
             <objects>
-                <splitViewController id="4OJ-cA-zKv" sceneMemberID="viewController">
+                <splitViewController storyboardIdentifier="LaunchSplit" id="4OJ-cA-zKv" sceneMemberID="viewController">
                     <connections>
                         <segue destination="0oZ-Yv-2ct" kind="relationship" relationship="masterViewController" id="wxG-hC-6jE"/>
                         <segue destination="UvE-MV-LRk" kind="relationship" relationship="detailViewController" id="a6K-kx-YhC"/>
