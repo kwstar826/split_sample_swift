@@ -19,7 +19,14 @@ class DetailViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
 
-        navigationItem.rightBarButtonItem = splitViewController?.displayModeButtonItem()
+        navigationItem.leftItemsSupplementBackButton = true
+
+        let displayModeButton = UIBarButtonItem(title: "Menu", style: .Plain,
+            target: splitViewController!.displayModeButtonItem().target,
+            action: splitViewController!.displayModeButtonItem().action)
+
+        navigationItem.leftBarButtonItem = displayModeButton
+        navigationItem.rightBarButtonItem = displayModeButton
     }
 
 }
