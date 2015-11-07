@@ -7,27 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F883931A1B8D13A900C810CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88393191B8D13A900C810CF /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		F883931C1B8D171900C810CF /* PrimaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883931B1B8D171900C810CF /* PrimaryTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		F883931E1B8D1E2200C810CF /* PrimaryNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883931D1B8D1E2200C810CF /* PrimaryNavigationController.swift */; settings = {ASSET_TAGS = (); }; };
-		F88393201B8D203700C810CF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883931F1B8D203700C810CF /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F883931A1B8D13A900C810CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88393191B8D13A900C810CF /* LaunchScreen.storyboard */; };
+		F883931C1B8D171900C810CF /* PrimaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883931B1B8D171900C810CF /* PrimaryTableViewController.swift */; };
+		F883931E1B8D1E2200C810CF /* PrimaryNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883931D1B8D1E2200C810CF /* PrimaryNavigationController.swift */; };
+		F88393201B8D203700C810CF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883931F1B8D203700C810CF /* DetailViewController.swift */; };
 		F8E8CD8E19B9438C0030BC67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8CD8D19B9438C0030BC67 /* AppDelegate.swift */; };
 		F8E8CD9319B9438C0030BC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E8CD9119B9438C0030BC67 /* Main.storyboard */; };
 		F8E8CD9519B9438C0030BC67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E8CD9419B9438C0030BC67 /* Images.xcassets */; };
-		F8E8CDA119B9438C0030BC67 /* SplitViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8CDA019B9438C0030BC67 /* SplitViewTests.swift */; };
 		F8E8CDAB19B96D370030BC67 /* DetailNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8CDAA19B96D370030BC67 /* DetailNavigationController.swift */; };
 		F8E8CDAD19B96EF10030BC67 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8CDAC19B96EF10030BC67 /* SplitViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F8E8CD9B19B9438C0030BC67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F8E8CD8019B9438C0030BC67 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F8E8CD8719B9438C0030BC67;
-			remoteInfo = SplitView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F88393191B8D13A900C810CF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,22 +28,12 @@
 		F8E8CD8D19B9438C0030BC67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8E8CD9219B9438C0030BC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8E8CD9419B9438C0030BC67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F8E8CD9A19B9438C0030BC67 /* SplitViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8E8CD9F19B9438C0030BC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8E8CDA019B9438C0030BC67 /* SplitViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewTests.swift; sourceTree = "<group>"; };
 		F8E8CDAA19B96D370030BC67 /* DetailNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNavigationController.swift; sourceTree = "<group>"; };
 		F8E8CDAC19B96EF10030BC67 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F8E8CD8519B9438C0030BC67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8E8CD9719B9438C0030BC67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				F8E8CD8A19B9438C0030BC67 /* SplitView */,
-				F8E8CD9D19B9438C0030BC67 /* SplitViewTests */,
 				F8E8CD8919B9438C0030BC67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				F8E8CD8819B9438C0030BC67 /* SplitView.app */,
-				F8E8CD9A19B9438C0030BC67 /* SplitViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,23 +84,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F8E8CD9D19B9438C0030BC67 /* SplitViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				F8E8CDA019B9438C0030BC67 /* SplitViewTests.swift */,
-				F8E8CD9E19B9438C0030BC67 /* Supporting Files */,
-			);
-			path = SplitViewTests;
-			sourceTree = "<group>";
-		};
-		F8E8CD9E19B9438C0030BC67 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8E8CD9F19B9438C0030BC67 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,24 +104,6 @@
 			productReference = F8E8CD8819B9438C0030BC67 /* SplitView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8E8CD9919B9438C0030BC67 /* SplitViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8E8CDA719B9438C0030BC67 /* Build configuration list for PBXNativeTarget "SplitViewTests" */;
-			buildPhases = (
-				F8E8CD9619B9438C0030BC67 /* Sources */,
-				F8E8CD9719B9438C0030BC67 /* Frameworks */,
-				F8E8CD9819B9438C0030BC67 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8E8CD9C19B9438C0030BC67 /* PBXTargetDependency */,
-			);
-			name = SplitViewTests;
-			productName = SplitViewTests;
-			productReference = F8E8CD9A19B9438C0030BC67 /* SplitViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,10 +116,6 @@
 				TargetAttributes = {
 					F8E8CD8719B9438C0030BC67 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					F8E8CD9919B9438C0030BC67 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = F8E8CD8719B9438C0030BC67;
 					};
 				};
 			};
@@ -195,7 +133,6 @@
 			projectRoot = "";
 			targets = (
 				F8E8CD8719B9438C0030BC67 /* SplitView */,
-				F8E8CD9919B9438C0030BC67 /* SplitViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -208,13 +145,6 @@
 				F883931A1B8D13A900C810CF /* LaunchScreen.storyboard in Resources */,
 				F8E8CD9319B9438C0030BC67 /* Main.storyboard in Resources */,
 				F8E8CD9519B9438C0030BC67 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8E8CD9819B9438C0030BC67 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,23 +164,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8E8CD9619B9438C0030BC67 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8E8CDA119B9438C0030BC67 /* SplitViewTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F8E8CD9C19B9438C0030BC67 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F8E8CD8719B9438C0030BC67 /* SplitView */;
-			targetProxy = F8E8CD9B19B9438C0030BC67 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F8E8CD9119B9438C0030BC67 /* Main.storyboard */ = {
@@ -363,40 +277,6 @@
 			};
 			name = Release;
 		};
-		F8E8CDA819B9438C0030BC67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SplitViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitView.app/SplitView";
-			};
-			name = Debug;
-		};
-		F8E8CDA919B9438C0030BC67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SplitViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitView.app/SplitView";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,15 +294,6 @@
 			buildConfigurations = (
 				F8E8CDA519B9438C0030BC67 /* Debug */,
 				F8E8CDA619B9438C0030BC67 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8E8CDA719B9438C0030BC67 /* Build configuration list for PBXNativeTarget "SplitViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8E8CDA819B9438C0030BC67 /* Debug */,
-				F8E8CDA919B9438C0030BC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
