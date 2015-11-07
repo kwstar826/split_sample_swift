@@ -25,4 +25,15 @@ extension SplitViewController: UISplitViewControllerDelegate {
         return .All
     }
 
+    func splitViewController(svc: UISplitViewController, willChangeToDisplayMode displayMode: UISplitViewControllerDisplayMode) {
+        debugPrint("splitViewController:willChangeToDisplayMode: \(displayMode) (\(displayMode.rawValue))")
+    }
+
+    func targetDisplayModeForActionInSplitViewController(svc: UISplitViewController) -> UISplitViewControllerDisplayMode {
+        return .Automatic
+//        return .AllVisible
+//        return .PrimaryHidden
+//        return .PrimaryOverlay
+    }
+
 }
